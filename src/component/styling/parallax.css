@@ -1,0 +1,60 @@
+.animation_layer{
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+}
+.animation{
+    display:block;
+    position: relative;
+    z-index: 10;
+}
+.animation .animation_layer{
+    height:1000px;
+}
+.animation_layer .parallax{
+    position: fixed;
+}
+#bdayboy{
+    background-size:500px;
+    background-image: url("../../assets/man_without bg.png");
+}
+#cake{
+    z-index: 3;
+    width: 100px;
+    height:100px;
+    background-image: url("../../assets/birthdaycake-removebg-preview.png");
+}
+.parallax_layer{
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+.parallax_layer_right{
+    padding-right: 20%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+.fitBg{
+    background-image: linear-gradient(to bottom, rgb(43, 2, 45), rgba(117, 19, 93, 0.7414),rgb(117, 19, 93)),
+     url("../../assets/redBg.jpg");
+    object-fit: cover;
+    background-position: bottom right;
+}
+.fitBg2{
+    background-image: linear-gradient(to bottom,rgb(117, 19, 93),rgb(117, 19, 93) );
+}
+.man{
+    visibility: hidden;
+}
+.man:hover{
+    transform: translateY("100px");
+    visibility: visible;
+}
+.cake{
+    pointer-events: none;
+}

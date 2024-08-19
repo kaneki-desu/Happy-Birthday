@@ -1,0 +1,17 @@
+
+.topography{
+    font-family: 'mexcelent3d', sans-serif;
+    font-size: 300px;
+    display: block;
+    text-align:left;
+    color: red;
+    white-space: pre-line;
+    text-shadow: rgba(255, 0, 140,0.5) 1px 0 10px;;
+    line-height: 1;
+}
+
+@media (max-width: 415px), screen and (orientation: portrait) {
+
+    .topography{font-size: 84px;}
+      }
+      

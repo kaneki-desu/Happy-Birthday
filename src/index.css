@@ -1,0 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/mexcellent');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "mexcelent3d";
+  src: url("../src/assets/fonts/mexcellent/mexcellent\ 3d.otf") format("opentype");
+}
+#root{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  /* background-color: rgb(117, 19, 93); */
+}
