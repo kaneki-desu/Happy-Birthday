@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/mexcellent');
 @font-face {
   font-family: "mexcelent3d";
-  src: url("../src/assets/fonts/mexcellent/mexcellent\ 3d.otf") format("opentype");
+  src: url("../../assets/fonts/mexcellent/mexcellent\ 3d.otf") format("opentype");
 }
 .topography{
     font-family: 'mexcelent3d', sans-serif;
